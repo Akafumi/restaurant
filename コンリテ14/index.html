@@ -5,14 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>調布駅周辺の飲食店</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="top">
+<img src="img/ChofStation(280_115).jpg">
 <h1>調布駅周辺の飲食店</h1>
+</div>
+
+<div class="main">
 <p>調布駅周辺の飲食店をカテゴリ別に調査した．</p>
-<ul>
-<li><a href="japanese/index.html">和食</a></li>
-<li><a href="chinese/index.html">洋食</a></li>
-<li><a href="western/index.html">中華</a></li>
-</ul>
+
+<button class="button" type="button" onclick='location.href="japanese/index.html"' id="ja">和食</button>
+<button class="button" type="button" onclick='location.href="western/index.html"' id="we">洋食</button>
+<button class="button" type="button" onclick='location.href="chinese/index.html"' id="ch">中華</button>
+
+</div>
+
 </body>
 </html>
