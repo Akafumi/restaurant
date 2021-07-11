@@ -1,11 +1,18 @@
 body {
   width: 280px;
   background-color: rgb(255,243,184);
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .ChofuStation {
   width: 280px; 
   height: 115px;
+}
+
+.selecter {
+  background-color: coral;
 }
 
 .top {
@@ -30,11 +37,15 @@ iframe {
 } */
 
 .button {
-  width: 136px;
-  height: 102px;
+  width: 120px;
+  height: 100px;
   font-weight: bold;
   background-color: lightcoral;
   margin-bottom: 5px;
   font-size: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
