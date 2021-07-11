@@ -19,10 +19,22 @@ body {
 
 }
 
+iframe {
+  border: 1px solid black;
+  width: 100%;
+}
+
+/* .map {
+  width: 280px;
+  height: 280px;
+} */
+
 .button {
-  width: 150px;
+  width: 136px;
+  height: 102px;
   font-weight: bold;
   background-color: lightcoral;
   margin-bottom: 5px;
+  font-size: 20px;
 }
 
