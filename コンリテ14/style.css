@@ -38,7 +38,7 @@ iframe {
 
 .button {
   width: 120px;
-  height: 100px;
+  height: 80px;
   font-weight: bold;
   background-color: lightcoral;
   margin-bottom: 5px;
@@ -49,3 +49,25 @@ iframe {
   margin-bottom: 8px;
 }
 
+.member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.member:before, .member:after {
+  before-top: 1px solid;
+  content: "";
+  width: 3em;
+}
+.member::before {
+  margin-right: 1em;
+}
+.member:after {
+  margin-left: 1em;
+}
+
+/* .member {
+margin-left: auto;
+margin-right: auto;
+} */
