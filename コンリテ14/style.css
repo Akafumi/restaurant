@@ -11,13 +11,13 @@
   margin-bottom: 8px;
 }
 
-.member {
+/* .member {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 5px;
-}
-.member:before, .member:after {
+} */
+/* .member:before, .member:after {
   before-top: 1px solid;
   content: "";
   width: 3em;
@@ -27,11 +27,10 @@
 }
 .member:after {
   margin-left: 1em;
-}
+} */
 
 .weapper {
   max-width: 1000px;
-  margin: 0 auto;
 }
 header {
   background: tomato;
@@ -49,7 +48,7 @@ header {
   width: 30%;
 }
 footer {
-background: plum;
+  background: plum;
 }
 
 /* .nav {
@@ -113,4 +112,12 @@ h1{
   position: relative;
   font-weight: 500;
   color: rgb(85, 9, 25);
+}
+
+.side_title {
+  text-align: center;
+}
+
+.member h2 {
+  text-align: center;
 }
