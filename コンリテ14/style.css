@@ -83,10 +83,11 @@ footer {
   margin-right: 2%;
 }
 
-h1{
+.top {
   font-size: 40px;
   float: left;
 }
+
 .sub {
   background: white;
   height: 80px;
